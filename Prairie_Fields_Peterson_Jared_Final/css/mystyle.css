@@ -1,0 +1,22 @@
+#images {
+    
+    background-color: #666633;
+    margin: 0;
+    padding 0;
+}
+
+#images {
+    font-size: 0;
+    width: 261px;
+    margin: 0 auto;
+}
+
+#images a {
+    margin: 2px;
+    border: 4px solid transparent;
+    display: inline-block;
+}
+
+#images a: hover {
+    border-color: white;
+}

@@ -1,0 +1,53 @@
+!DOCTYPE tml?
+<html>
+<head>
+    <title>Using Css Grid</title>
+    <style>
+    
+    body {
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+
+    #content {
+        display: grid;
+        grid-template-columns:33.3% 33.3% 33.3%;
+        max-width: 960px;
+        margin: 0 auto;
+    }
+
+    #content div {
+        background: #666633;
+        padding: 30px;
+    }
+
+    #content div:nth-child(even){
+        background: #777;
+    }
+
+    </style>
+    </head>
+    
+    <body>
+
+<div id="content">
+   <div> 
+   <a href="images/greg.jpg"><img src="images/greg.jpg" alt = "greg" class = "img-responsive" /a>
+   <a href="images/pj.jpg"><img src="images/pj.jpg" alt = "greg" class = "img-responsive" /a>
+   <a href="images/dan.jpg"><img src="images/dan.jpg" alt = "greg" class = "img-responsive" /a> 
+   <a href="images/kyle.jpg"><img src="images/kyle.jpg" alt = "greg" class = "img-responsive" /a>  
+   <a href="images/brian.jpg"><img src="images/brian.jpg" alt = "greg" class = "img-responsive" /a>
+    <a href="images/marianne.jpg"><img src="images/marianne.jpg" alt = "greg" class = "img-responsive" /a>
+    <a href="images/tim.jpg"><img src="images/tim.jpg" alt = "greg" class = "img-responsive" /a>               
+
+       
+   </div>
+  
+
+  
+
+</div>
+
+    </body>
+    </html>

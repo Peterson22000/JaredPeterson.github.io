@@ -1,0 +1,152 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+H1 {
+    text-align: left;
+    font: bold 20px tahoma;
+}
+
+h2 {
+    text-align: left;
+    font: bold 14px tahoma;
+}
+
+header, section, aside, nav, article, hgroup {
+    display: block;
+}
+
+body {
+    text-align: left;
+}
+
+#big_wrapper {
+    border: 1px #666633;
+    width: 1000px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+#top_header {
+    background: #666633;
+    border: 1px whitesmoke;
+    padding: 20px
+}
+
+#top_menu {
+    background: #666633;
+    color: whitesmoke;
+}
+
+#top_menu li {
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#main_section {
+    float: left;
+    width: 660px;
+    margin: 30px;
+}
+
+#side_nav {
+    float: left;
+    width: 220px;
+    margin: 20px 0px;
+    padding: 30px;
+    background: gray;
+}
+
+li {
+    color: white;
+}
+
+a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FFFFFF;
+    background: #666633;
+}
+
+h2{
+    border-style: solid;
+    border-width: 12px;
+    border-color: #666633;
+    align-content: center;
+    background-color: #666633;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+body{
+    background-color: #B49292;
+
+}
+
+p {
+    color: white;
+}
+
+
+
+pre {
+    border-style: solid;
+    border-width: 12px;
+    border-color: orange;
+    align-content: left;
+    color: white;
+}
+p {
+    color: white;
+}
+
+img {
+    border-style: single;
+    border-width: 2px;
+    border-color: black;
+    align-content: right;
+
+}
+
+body{
+   background-color: #666633;
+}
+
+footer{
+    color: white;
+}
+nav{
+    color: #999966;
+}
+h4{
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+div {
+    vertical-align: right;
+}
+
+form {
+    text-align-last: left;
+    text-align: center;
+}
+ 

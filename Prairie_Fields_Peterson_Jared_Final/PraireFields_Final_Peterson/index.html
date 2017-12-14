@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<title>Announcements</title>
+		<link rel="shortcut icon" href="images/favicon.html">
+		<link rel="stylesheet" href="site.css">
+		<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="./index_files/site.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="announcements.html"> 
+                    Announcements</a></li>
+                    <li><a href="board.html">Board</a></li>
+                    <li><a href="committees.html">Committees</a></li>
+                <li><a href="dues.html">Dues</a></li>
+                <li><a href="Covenant.html">Covenant</a></li>  
+				<li><a href="Faqs.html">FAQs</a></li>
+				<li><a href="form.html">Contact Info</a></li>
+					<li><a href="covform.html">Covenant Form</a></li>       
+                </ul>
+        </nav>
+    </header>
+    <h1>Welcome To Prairie Fields!</h1>
+    <h2>Where to find us.</h2>
+    <div id="map" style="width:400px;height:400px;background:#336666">
+    </div>
+
+    <script>
+    function myMap() {
+        center: new google.maps.LatLng(51.5, -0.12),
+        zoom: 10,
+        mapTypeId: google.maps.MapTypeId.HYBRID
+    }
+    Var map = new
+     google.maps.Map(document.getElementById("map"), mapOptions);
+    }
+    </script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=my-map-186121&callback=myMap">
+    </script>
+  
+
+<section>
+    <h3></h3>
+    </section>
+    <section> <!-- nested, so it's a 
+        subsection of its parent -->
+    <h4></h4>
+    </section>
+
+    <section>
+    <h2></h2>
+    </section>
+
+    <footer>
+        <p><small>&copy; Jared Peterson 2017</small>
+        </p>
+        </footer>
+
+</body>
+</html>
